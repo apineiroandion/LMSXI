@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE matricula [
+  <!ELEMENT matricula (ciclo)>
+  <!ELEMENT ciclo (alumnos)>
+  <!ELEMENT alumnos (alumno*)>
+  <!ELEMENT alumno (nome,ano,modulos)>
+  <!ELEMENT modulos (modulo+)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT ano (#PCDATA)>
+  <!ELEMENT modulo (#PCDATA)>
+]>
+<matricula>
+  <ciclo>Desenvolvemento de aplicacións multiplataforma</ciclo>
+  <alumnos>
+    <alumno>
+      <nome>Tom Berenger</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>LMSXI</modulo>
+        <modulo>FOL</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>Glenn Close</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>Sistemas informáticos</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>Jeff Goldblum</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>Programación</modulo>
+        <modulo>Bases de datos</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>William Hurt</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>LMSXI</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>Kevin KLine</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>LMSXI</modulo>
+        <modulo>Programación</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>Mary Kae Place</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>LMSXI</modulo>
+        <modulo>Sistemas Informáticos</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>Meg Tilly</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>Programación</modulo>
+      </modulos>
+    </alumno>
+    <alumno>
+      <nome>JoBeth Willians</nome>
+      <ano>2023</ano>
+      <modulos>
+        <modulo>LMSXI</modulo>
+        <modulo>Programación</modulo>
+        <modulo>Sistemas Informáticos</modulo>
+      </modulos>
+    </alumno>
+  </alumnos>
+</matricula>

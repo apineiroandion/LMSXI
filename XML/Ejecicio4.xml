@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<listaDeClientes>
+	<cliente>
+		<nome>Carmen</nome>
+		<apelido>Lerma</apelido>
+		<direccion>
+			<tipoDeVia>Rua</tipoDeVia>
+			<nomeDaVia>Tres Cruces</nomeDaVia>
+			<numero>12</numero>
+			<poboacion>Madrid</poboacion>
+			<codigoPostal>28055</codigoPostal>
+</direccion>
+	<pedido instalado="non">
+		<dataDoPedido>
+			<dia>15</dia>
+			<mes>Setembro</mes>
+			<ano>2023</ano>
+		</dataDoPedido>
+		<direccionDeEntrega>
+			<tipo>Praza</tipo>
+			<nomeRua>da Princesa</nomeRua>
+			<num>12</num>
+			<pob>Albacete</pob>
+			<codPostal>05020</codPostal>
+		</direccionDeEntrega>
+<producto>
+	<codigoProducto>A45GN7</codigoProducto>
+	<nomeProducto>piscina grande</nomeProducto>
+	<prezoProducto>9480.95</prezoProducto>
+</producto>
+<producto>
+<codigoProducto>GH674FA</codigoProducto>
+	<nomeProducto>piscina pequena</nomeProducto>
+	<prezoProducto>4567.43 </prezoProducto>
+</producto>
+<prezoTotal>14048.38</prezoTotal>
+<observacions>
+Abre la puerta Francisco Lorin Colorado
+                                   </observacions>
+	</pedido>
+	</cliente>
+</listaDeClientes>

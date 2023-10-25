@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido[
+<!ELEMENT pedido (libro*|cadernos*|lapiz*)>
+<!ELEMENT lapiz (numero)>
+<!ELEMENT lapiz (#PCDATA)>
+<!ATTLIST libro titulo NMTOKENS #REQUIRED>
+<!ATTLIST cadernos num_follas NMTOKENS #IMPLIED>
+]>
+
+<pedido>
+    <libros titulo="hola"/>
+    <cadernos num_follas="123"/>
+    <lapiz>
+        <numero>diez</numero>
+    </lapiz>
+    <lapiz>
+        <numero>2</numero>
+    </lapiz>
+    <lapiz>
+        <numero>2dos</numero>
+    </lapiz>
+    <cadernos num_follas="22"/>
+    <libros titulo="veinte"/>
+    <libros titulo="cinco5"/>
+    <libros titulo="adios"/>
+    <cadernos num_follas="32"/>
+    <lapiz>
+        <numero>2tres</numero>
+    </lapiz>
+</pedido>

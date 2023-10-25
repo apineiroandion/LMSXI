@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE albaran[
+<!ELEMENT albaran (numero, data, cliente, artigos)>
+<!ELEMENT cliente (nome, poboacion)>
+<!ELEMENT artigos (compra*)>
+<!ELEMENT compra (artigo, cantidade)>
+<!ELEMENT artigo (descripcion, botella?, prezo)>
+<!ATTLIST cliente id ID #REQUIRED>
+<!ATTLIST artigo codigo ID #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT poboacion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT botella (#PCDATA)>
+<!ELEMENT prezo (#PCDATA)>
+]>
+<albaran>
+<numero>8</numero>
+<data>2011-10-03</data>
+<cliente id="1">
+<nome>Pere Garcia</nome>
+<poboacion>Figueres</poboacion>
+</cliente>
+<artigos>
+<compra>
+<artigo codigo="9">
+<descricion>Vi Valdepeñas gran reserva. Viña Albali 75cl</descricion>
+<botella/>
+<prezo>4.98</prezo>
+</artigo>
+<cantidade>3</cantidade>
+</compra>
+<compra>
+<artigo codigo="12">
+...
+</artigo>
+<cantidade>1</cantidade>
+</compra>
+<compra>
+<artigo codigo="58">
+...
+</artigo>
+<cantidade>1</cantidade>
+</compra>
+</artigos>
+</albaran>

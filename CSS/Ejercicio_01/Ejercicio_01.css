@@ -1,0 +1,32 @@
+profesor{display:block;
+margin-right:900px;
+margin-left:50px;
+}
+profesor{border: 3px black solid;}
+profesor {
+padding-left:15px;
+padding-top: 15px;
+padding-right: 0px;
+padding-bottom:15px;
+}
+departamento{display:block;
+background-color:black;
+color:white;
+float:right;
+clear:rigth;
+padding-left:140px;
+padding-top: 1px;
+padding-right: 0px;
+padding-bottom: 1px;
+border-style:solid;
+}
+cargo{display:block;
+padding-left:30px;
+font-style:italic;}
+nome{
+padding-left:7px;
+font:italic bold 125% Verdana,Geneva,Arial,Sans-Serif;
+}
+apelido{
+font:italic bold 125% Verdana,Geneva,Arial,Sans-Serif;
+}

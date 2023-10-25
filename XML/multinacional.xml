@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE multinacional[
+<!ELEMENT multinacional (futuros+,divisas+,bonos+,letras+)>
+<!ELEMENT futuros (madrid*,NovaYork*,Frankfurt*,Tokio*,mercado)>
+<!ELEMENT mercado (paisProcedencia)>
+<!ELEMENT divisas (madrid*,NovaYork*,Frankfurt*,Tokio*,nome,cambio*)>
+<!ELEMENT bonos  (madrid*,NovaYork*,Frankfurt*,Tokio*,pais_de_procedencia,valor_desexado,valor_minimo,valor_maximo)>
+<!ELEMENT letras (madrid*,NovaYork*,Frankfurt*,Tokio*,interese,paisEmisor)>
+<!ELEMENT paisEmisor (España|EEUU|Alemaña|Xapon)>
+<!ATTLIST futuros prezo NMTOKENS #REQUIRED>
+<!ATTLIST futuros divisas NMTOKENS #REQUIRED>
+<!ATTLIST futuros bonos NMTOKENS #REQUIRED>
+<!ATTLIST futuros letras NMTOKENS #REQUIRED>
+<!ATTLIST divisas estable NMTOKENS #IMPLIED>
+<!ATTLIST bonos estable NMTOKENS #IMPLIED>
+<!ELEMENT paisProcedencia (España|EEUU|Alemaña|Xapon)>
+<!ELEMENT pais_de_procedencia (España|EEUU|Alemaña|Xapon)>
+<!ELEMENT valor_desexado (#PCDATA)>
+<!ELEMENT valor_minimo (#PCDATA)>
+<!ELEMENT valor_maximo (#PCDATA)>
+<!ELEMENT interese (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT madrid (EMPTY)>
+<!ELEMENT NovaYork (EMPTY)>
+<!ELEMENT Frankfurt (EMPTY)>
+<!ELEMENT Tokio (EMPTY)>
+<!ELEMENT España (EMPTY)>
+<!ELEMENT EEUU (EMPTY)>
+<!ELEMENT Alemaña (EMPTY)>
+<!ELEMENT Xapon (EMPTY)>
+]>
+<multinacional>
+    <futuros prezo="123">
+        <madrid/>
+        <mercado>
+            <paisProcedencia>España</paisProcedencia>
+        </mercado>
+    </futuros>
+    <divisas prezo="123" estable="si">
+        <Tokio/>
+        <nome>nome dunha divisa</nome>
+    </divisas>
+    <divisas prezo="123" estable="non">
+        <Frankfurt/>
+        <nome>euro</nome>
+        <cambio>cambio a dolar</cambio>
+        <cambio>cambio a yen</cambio>
+    </divisas>
+    <divisas prezo="123">
+        <madrid/>
+        <nome>libra</nome>
+    </divisas>
+    <bonos prezo="898989" estable="non">
+        <madrid/>
+        <pais_de_procedencia>España</pais_de_procedencia>
+        <valor_desexado>9999</valor_desexado>
+        <valor_maximo>3</valor_maximo>
+        <valor_minimo>1</valor_minimo>
+    </bonos>
+    <bonos prezo="5">
+        <Tokio/>
+        <pais_de_procedencia>Xapon</pais_de_procedencia>
+        <valor_desexado>5</valor_desexado>
+        <valor_maximo>4</valor_maximo>
+        <valor_minimo>2</valor_minimo>
+    </bonos>
+    <letras>
+        <Frankfurt/>
+        <paisEmisor>Alemaña</paisEmisor>
+        <interese>354</interese>
+    </letras>
+</multinacional>

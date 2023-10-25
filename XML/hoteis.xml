@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<listaHoteis>
+	<hotel>
+		<nome>Hotelon</nome>
+		<telefono>611111111</telefono>
+		<direccion>
+			<nomeDaRua>Rua do Hotelon</nomeDaRua>
+			<numero>33</numero>
+        </direccion>
+        <habitacions>
+            <individuais>15</individuais>
+            <dobres>15</dobres>
+            <triples>5</triples>
+            <suites>4</suites>
+        </habitacions>
+    </hotel>
+    <hotel>
+		<nome>Hoteliño</nome>
+		<telefono>622222222</telefono>
+		<direccion>
+			<nomeDaRua>Rua do Hoteliño</nomeDaRua>
+			<numero>52</numero>
+        </direccion>
+        <habitacions>
+            <individuais>40</individuais>
+            <dobres>35</dobres>
+            <triples>10</triples>
+            <suites>5</suites>
+        </habitacions>
+    </hotel>
+</listaHoteis>

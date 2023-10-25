@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (editorial*)>
+<!ELEMENT editorial (razonsocial,direccion,contacto?,libro*)>
+<!ELEMENT direccion (rua,numero,codigopostal,poboacion)>
+<!ELEMENT libro (titulo,datapublicacion,autor,premios,resumo)>
+<!ELEMENT autor (nome,apelido,direccion)>
+<!ELEMENT direccion (rua,numero,codigopostal,poboacion)>
+<!ELEMENT premios (premio*)>
+<!ELEMENT razonsocial (#PCDATA)>
+<!ELEMENT contacto (#PCDATA)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT codigopostal (#PCDATA)>
+<!ELEMENT poboacion (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT apelido (#PCDATA)>
+<!ELEMENT premio (#PCDATA)>
+]>
+<biblioteca>
+    <editorial>
+        <razonsocial>Editorial Periférica</razonsocial>
+        <direccion>
+                <rua>Fuente Nueva</rua>
+                <numero>6</numero>
+                <codigopostal>10003</codigopostal>
+                <poboacion>Cáceres</poboacion>
+        </direccion>
+        <contacto>info@editorialperiferica.com</contacto>
+        
+        <libro>           
+            <titulo>Recuerdos de un jardinero inglés</titulo>
+            <datapublicacion>outubro de 2020</datapublicacion>
+            <autor>
+                <nome>Reginal</nome>  
+                <apelido>Arkell</apelido>
+                <direccion>
+                    <rua>Oak Street</rua>
+                    <numero>5</numero>
+                    <codigopostal>17761</codigopostal>
+                    <poboacion>Gloucestershire</poboacion>
+                </direccion>              
+            </autor>
+            <premios>
+                <premio>Mellor Rubia Galega de Rouzós 2021</premio>
+                <premio>Campionato internacional de Petanca de Teis 2019</premio>
+            </premios>
+            <resumo>
+                Fala dun xardineiro, sen máis
+            </resumo>
+        </libro>
+        <libro>
+        <titulo>Retrato de un futbolista adolescente</titulo>
+        <datapublicacion>xaneiro de 2019</datapublicacion>
+        <autor>
+            <nome>Valentín</nome>  
+            <apelido>Roma</apelido>
+            <apelido>Serrano</apelido>
+            <direccion>
+                <rua>Sabates noves</rua>
+                <numero>23</numero>
+                <piso>23 A</piso>
+                <codigopostal>17760</codigopostal>
+                <poboacion>Ripollet</poboacion>
+            </direccion>              
+        </autor>
+        <premios>
+            <premio>Proyecto Artístico de la Asociación Catalana de Críticos de Arte</premio>
+        </premios>
+        <resumo>
+            A historia via dun pelotudo  
+        </resumo>
+    </libro>
+    </editorial>
+    <editorial>
+        <razonsocial>Editorial Alianza</razonsocial>
+        <direccion>
+            <rua>Valentín Beato</rua>
+            <numero>21</numero>
+            <codigopostal>28037</codigopostal>
+            <poboacion>Madrid</poboacion>
+        </direccion>
+        
+    </editorial>
+    
+</biblioteca>
