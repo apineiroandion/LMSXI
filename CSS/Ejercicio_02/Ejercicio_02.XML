@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Ejercicio_02.CSS"?>
+
+<empresa>
+ <id>LMSXI,SA</id>
+ <empleados>
+ <departamentos>
+ <departamento>
+ <nome-departamento>Dirección</nome-departamento>
+ <traballadores>
+ <xefe>
+ <nome>Nicke Andersson</nome>
+ </xefe>
+ </traballadores>
+ </departamento>
+ <departamento>
+ <nome-departamento>Ventas</nome-departamento>
+ <traballadores>
+ <xefe>
+ <nome>Dregen</nome>
+ </xefe>
+ <traballador>
+ <nome>Kenny Hakansso</nome>
+ </traballador>
+ <traballador>
+ <nome>Robban Eriksson</nome>
+ </traballador>
+ <traballador>
+ <nome>Nicke Borg</nome>
+ </traballador>
+ </traballadores>
+ </departamento>
+ <departamento>
+ <nome-departamento>Compras</nome-departamento>
+ <traballador>
+ <nome>Johan Blomqvist</nome>
+ </traballador>
+ <xefe>
+ <nome>Peder Carlsson</nome>
+ </xefe>
+ <traballador>
+ <nome>Tommy Manboy</nome>
+ </traballador>
+ </departamento>
+ </departamentos>
+ </empleados>
+</empresa>

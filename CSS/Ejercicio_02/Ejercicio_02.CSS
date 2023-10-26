@@ -1,0 +1,41 @@
+empresa{display:block;
+margin-right: 20%;
+margin-left:20%;
+padding-left:5%;
+padding-top: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+background-color:RGB(174, 214, 241);
+}
+id{display:block;
+padding-left:41%;
+font-size:150%;
+}
+
+departamento{display:block;
+padding-left:1%;
+padding-top: 1%;
+padding-right: 1%;
+padding-bottom: 1%;
+background-color:RGB(214, 219, 223);
+border-style: solid;
+Margin:2%;
+}
+
+nome-departamento{display:block;
+margin-right:1%;
+margin-left:1%;
+padding-left:40%;
+text-decoration:underline;
+line-height:200%;
+font-size:150%;
+}
+traballador{display:block;
+margin-right:1%;
+margin-left:1%;
+}
+xefe{display:block;
+margin-right:1%;
+margin-left:1%;
+font-weight:bold;
+}
