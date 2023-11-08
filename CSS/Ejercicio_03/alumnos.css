@@ -1,0 +1,36 @@
+alumnos{
+  display:block;
+}
+centro{
+  display:block;
+  font-size:70%;
+}
+modulo{
+  display:block;
+  background-color:black;
+  color:white;
+  font-size:140%;
+  padding-left:20%;
+  margin-left:2%;
+}
+profesor{
+  display:block;
+  font-size:110%;
+  font-weight: bold;
+  padding-left:5%;
+}
+profesor nome:before{
+content:"Profesor: ";
+}
+alumno{
+  display:block;
+  border-style:solid;
+  font-weight: bold;
+}
+temas{
+  display:block;
+  font-weight: normal;
+}
+tema:before{
+content: "UF"attr(num)": ";
+}

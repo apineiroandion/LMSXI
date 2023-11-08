@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nba[
+<!ELEMENT nba (ligaregular)>
+<!ELEMENT ligaregular (data,poduim)>
+<!ELEMENT data (dia,mes,ano)>
+<!ELEMENT podium (orden*)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
+<!ELEMENT orden (EMPTY)>
+<!ATTLIST orden n NMTOKENS #REQUIRED>
+<!ATTLIST orden nome NMTOKENS #REQUIRED>
+<!ATTLIST orden equipo NMTOKENS #IMPLIED>
+]>
+<nba temporada="2006-2007">
+    <ligaregular>
+        <data>
+            <dia>29</dia>
+            <mes>maio</mes>
+            <ano>2007</ano>
+        </data>
+        <podium>
+            <orden n="1" nome="Dirik Nowitzki" equipo="Dallas Mavericks"/>
+            <orden n="2" nome="Seteve Nash"/>
+            <orden n="3" nome="Kobe Bryant"/>
+        </podium>
+    </ligaregular>
+</nba>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="alumnos.css"?>
+<alumnos>
+  <centro>CPR Daniel Castelao</centro>
+  <modulo>Linguaxes de marcas e sistemas de xestión de información</modulo>
+  <profesor>
+       <nome>Cedric Bixler-Zavala</nome>     
+  </profesor>
+  <alumnos>
+     <alumno>
+         <nome>Omar</nome>
+         <apelido>Rodríguez</apelido>
+         <apelido>López</apelido>
+         <temas>
+             <tema num="1">Si</tema>
+             <tema num="2">Si</tema>
+             <tema num="3">Si</tema>
+             <tema num="4">Si</tema>
+         </temas>
+     </alumno>
+     <alumno>
+         <nome>Keely</nome>
+         <apelido>Davis</apelido>
+         <temas>
+             <tema num="1">Si</tema>
+             <tema num="2">Si</tema>
+             <tema num="3">Si</tema>
+             <tema num="4">Si</tema>
+         </temas>
+     </alumno>
+     <alumno>
+         <nome>Paul</nome>
+         <apelido>Hinojos</apelido>
+         <apelido>González</apelido>
+         <temas>
+             <tema num="1">Si</tema>
+             <tema num="2">Non</tema>
+             <tema num="3">Si</tema>
+             <tema num="4">Si</tema>
+         </temas>
+     </alumno>
+     <alumno>
+         <nome>Tony</nome>
+         <apelido>Hajjar</apelido>
+         <temas>
+             <tema num="1">Non</tema>
+             <tema num="2">Si</tema>
+             <tema num="3">Si</tema>
+             <tema num="4">Si</tema>
+         </temas>
+     </alumno>
+     <alumno>
+         <nome>Jim</nome>
+         <apelido>Ward</apelido>
+         <temas>
+             <tema num="1">Si</tema>
+             <tema num="2">Si</tema>
+             <tema num="3">Si</tema>
+             <tema num="4">Si</tema>
+         </temas>
+     </alumno>     
+     <alumno>
+         <nome>Jarret</nome>
+         <apelido>Wrenn</apelido>
+         <temas>
+             <tema num="1">Non</tema>
+             <tema num="2">Non</tema>
+             <tema num="3">Non</tema>
+             <tema num="4">Si</tema>
+         </temas>
+     </alumno>
+  </alumnos>
+</alumnos>
+

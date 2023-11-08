@@ -1,0 +1,19 @@
+<!DOCTYPE alumnos[
+<!ELEMENT alumnos (alumno*)>
+<!ELEMENT alumno (nome,apelidos,domicilio,telefono,equipo*,afecion*,comentarios*,altura*)>
+<!ELEMENT domicilio (direccion,cidade,provincia,nacionalidade)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT apelidos (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT afecion (#PCDATA)>
+<!ELEMENT comentarios (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT nacionalidade (#PCDATA)>
+<!ATTLIST alumno numero-alumno ID #REQUIRED>
+<!ATTLIST alumno sexo (masculino|femenino) #IMPLIED>
+<!ATTLIST telefono propietario (pai|nai|tutor) #IMPLIED>
+]>

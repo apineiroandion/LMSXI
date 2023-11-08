@@ -1,0 +1,36 @@
+<equipos>
+    <equipo>
+        <nome>equipoUn</nome>
+        <cidade>Vigo</cidade>
+        <entrenador>
+            <nomeentrenador>Un Tipo</nomeentrenador>
+        </entrenador>
+        <xogadores>
+            <xogador posicion="base">
+                <nomexogador>Un Xogador</nomexogador>
+                <nacionalidade>España</nacionalidade>
+            </xogador>
+            <xogador posicion="escolta">
+                <nomexogador>Outro Xogador</nomexogador>
+                <nacionalidade>Italia</nacionalidade>
+            </xogador>
+        </xogadores>
+    </equipo>
+    <equipo>
+        <nome>Outro Equipo</nome>
+        <cidade>Pontevedra</cidade>
+        <entrenador>
+            <nomeentrenador>Outro Entrenador</nomeentrenador>
+        </entrenador>
+        <xogadores>
+            <xogador posicion="aleiro">
+                <nomexogador>O que xoga de aleiro</nomexogador>
+                <nacionalidade>Portuguesa</nacionalidade>
+            </xogador>
+            <xogador posicion="pivot">
+                <nomexogador>Outro</nomexogador>
+                <nacionalidade>Española</nacionalidade>
+            </xogador>
+        </xogadores>
+    </equipo>
+</equipos>

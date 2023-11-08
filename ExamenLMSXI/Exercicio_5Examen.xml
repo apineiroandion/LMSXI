@@ -1,0 +1,13 @@
+<axenda>
+    <persoa id="p1">
+        <nome>Angel</nome>
+        <email>hola@gmail.com</email>
+        <relacion>
+        </relacion>
+    </persoa>
+    <persoa id="p2">
+        <nome>Outro</nome>
+        <relacion amigo-de="p1">
+        </relacion>
+    </persoa>
+</axenda>

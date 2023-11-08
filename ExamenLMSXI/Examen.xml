@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno numero-alumno="a1" sexo="masculino">
+        <nome>Jaime</nome>
+        <apelidos>Gutierrez</apelidos>
+        <domicilio>
+            <direccion>unhaCalle</direccion>
+            <cidade>Vigo</cidade>
+            <provincia>Ponteverdra</provincia>
+            <nacionalidade>España</nacionalidade>
+        </domicilio>
+        <telefono propietario="tutor">123456789</telefono>
+        <equipo>baloncesto</equipo>
+        <afecions>ningunha</afecions>
+        <comentarios>e moi simpatico</comentarios>
+        <altura>1.80</altura>
+    </alumno>
+    <alumno numero-alumno="a2" sexo="femenino">
+        <nome>Jaima</nome>
+        <apelidos>Gutierrez</apelidos>
+        <domicilio>
+            <direccion>unhaCalleDous</direccion>
+            <cidade>Vigo</cidade>
+            <provincia>Ponteverdra</provincia>
+            <nacionalidade>España</nacionalidade>
+        </domicilio>
+        <telefono propietario="pai">123456789</telefono>
+        <comentarios>e moi simpatica</comentarios>
+    </alumno>
+</alumnos>
