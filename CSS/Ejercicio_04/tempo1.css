@@ -1,0 +1,41 @@
+tempo{
+    display:inline;
+    border-style:solid;
+}
+
+    poboacion{
+        display:inline;
+
+    }
+        nome{
+
+            font-size:250%;
+            background-color:black;
+            color:white;
+            padding-left:1%;
+            padding-right:1%;
+        }
+            comarca{
+                display:none;
+            }
+        data{
+
+            display:block;
+            font-size:200%;
+            color:red;
+        }
+    previsions{
+
+        margin:10px;
+        display:table-row;
+    }
+    prevision{
+        display:inline;
+        display:table-cell;
+        border:1px solid#000000;
+        padding:3px;
+        border-spacing:0px;
+    }
+    maxima,minima,vento{
+        display:none;
+    }

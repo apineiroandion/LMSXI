@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="tempo.css" type="text/css" ?>
+<tempo>
+    <poboacion>
+        <nome>Ponteareas</nome>
+        <comarca>O Condado</comarca>
+        <data>19-12-2023</data>
+    </poboacion>
+    <previsions>            
+		<maxima>21</maxima>
+        <minima>4</minima>
+		<vento>24 km/h</vento>
+        <prevision hora="08:00" estado="soleado">
+	    	<graos>16</graos>
+		</prevision>
+		<prevision hora="14:00" estado="soleado">
+	    	<graos>24</graos>
+		</prevision>
+		<prevision hora="20:00" estado="soleado">
+	    	<graos>20</graos>
+		</prevision>
+    </previsions>                     
+</tempo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="tempo1.css" type="text/css" ?>
+<tempo>
+    <poboacion>
+        <nome>Cangas</nome>
+        <comarca>Morrazo</comarca>
+        <data>19-12-2023</data>
+    </poboacion>
+    <previsions>            
+		<maxima>21</maxima>
+        <minima>1</minima>
+		<vento>24 km/h</vento>
+        <prevision hora="08:00" estado="nuboso">
+	    	<graos>16</graos>
+		</prevision>
+		<prevision hora="14:00" estado="nuboso">
+	    	<graos>24</graos>
+		</prevision>
+		<prevision hora="20:00" estado="chuvia">
+	    	<graos>20</graos>
+		</prevision>
+    </previsions>                     
+</tempo>

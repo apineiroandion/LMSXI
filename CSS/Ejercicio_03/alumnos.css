@@ -32,5 +32,10 @@ temas{
   font-weight: normal;
 }
 tema:before{
-content: "UF"attr(num)": ";
+content: "UF"attr(num)":";
+
+}
+tema{
+  display:line;
+  margin-left:2%;
 }

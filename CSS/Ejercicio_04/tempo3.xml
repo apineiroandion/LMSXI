@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="tempo.css" type="text/css" ?>
+<tempo>
+    <poboacion>
+        <nome>Lobios</nome>
+        <comarca>Baixa Limia</comarca>
+        <data>18-12-2023</data>
+    </poboacion>
+    <previsions>            
+		<maxima>21</maxima>
+        <minima>4</minima>
+		<vento>24 km/h</vento>
+        <prevision hora="08:00" estado="nuboso">
+	    	<graos>5</graos>
+		</prevision>
+		<prevision hora="14:00" estado="neve">
+	    	<graos>0</graos>
+		</prevision>
+		<prevision hora="20:00" estado="nuboso">
+	    	<graos>1</graos>
+		</prevision>
+    </previsions>                     
+</tempo>
