@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="Ejercicio5.css"?>
+ <base>
+  <titulo>Replica</titulo>
+    <ciclos>
+        <web>www.danielcastelao.org</web>
+        <grupociclos>
+           <ciclo>
+              <nome>
+                Administracion de sistemas informaticos y Redes
+              </nome>
+              <tipo>Superior</tipo>
+              <ano>2023</ano>
+            </ciclo>
+          <ciclo>
+              <nome>Desenrolo aplicacions multiplataforma</nome>
+              <tipo>Superior</tipo>
+              <ano>2023</ano>
+            </ciclo>
+          <ciclo>
+              <nome>Desenrolo aplicacions web</nome>
+              <tipo>Superior</tipo>
+              <ano>2023</ano>
+            </ciclo>
+          <ciclo>
+              <nome>Sistemas microinformaticos y redes</nome>
+              <tipo>Medio</tipo>
+              <ano>2023</ano>
+            </ciclo>
+        </grupociclos>
+    </ciclos>
+</base>

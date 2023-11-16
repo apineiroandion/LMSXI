@@ -1,41 +1,64 @@
 tempo{
-    display:inline;
+    display: flex;
+    flex-wrap: wrap;
     border-style:solid;
+    margin-right:40%;
 }
-
     poboacion{
         display:inline;
 
     }
         nome{
-
+            display: flex;
             font-size:250%;
             background-color:black;
             color:white;
-            padding-left:1%;
-            padding-right:1%;
+
         }
             comarca{
                 display:none;
             }
         data{
-
             display:block;
             font-size:200%;
             color:red;
         }
     previsions{
-
-        margin:10px;
-        display:table-row;
+        display: flex;
+        flex-wrap: wrap;
     }
-    prevision{
-        display:inline;
-        display:table-cell;
-        border:1px solid#000000;
-        padding:3px;
-        border-spacing:0px;
+    prevision {
+        display: flex;
+        flex-wrap: wrap;
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        width: 200px;
+        height: 150px;
     }
     maxima,minima,vento{
         display:none;
     }
+    [estado="soleado"]{
+        background-image: url(sol.png);
+    }
+    [estado="chuvia"]{
+        background-image: url(chuvia.png);
+    }
+    [estado="neve"]{
+        background-image: url(neve.png);
+    }
+    [estado="nuboso"]{
+        background-image: url(nuboso.png);
+    }
+
+
+
+
+
+
+
