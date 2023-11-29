@@ -1,0 +1,18 @@
+resumen{
+  display:block;
+  font-size:150%;
+  width:250px;
+}
+edificio{
+  display:list-item;
+  margin-left:20px;
+}
+nombre{
+  font-weight: bold;
+}
+ciudad{
+    display:list-item;
+}
+datos{
+    display:list-item;
+}

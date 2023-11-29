@@ -1,0 +1,30 @@
+ 
+libros{
+}
+biblioteca{
+  display:none;
+}
+libro{
+  display:table;
+  border:2px ;
+  border-spacing:5px;
+  width:30%;
+  margin-left:20%;
+  margin-bottom:5px;
+  background-color:lightgreen;
+  border-style:solid;
+}
+titulo{
+  display:table-caption;
+  text-align:center;
+  background-color:lightgrey;
+  border-style:solid;
+  border-bottom:none;
+  border-left:none;
+  border-right:none;
+  margin-bottom:5px;
+}
+autor,fechaPublicacion{
+  display:table-row;
+  background-color:white;
+}

@@ -1,0 +1,21 @@
+resumen{
+  display:block;
+  font-size:150%;
+  width:250px;
+}
+edificio{
+}
+nombre{
+}
+ciudad{
+    display:none;
+}
+datos{
+}
+altura{    display:list-item;
+    margin-left:20px;}
+pisos{    display:list-item;
+    margin-left:20px;}
+completado{
+  display:none;
+}

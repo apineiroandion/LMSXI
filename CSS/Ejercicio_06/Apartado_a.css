@@ -1,0 +1,24 @@
+ 
+biblioteca{
+  display: block;
+}
+nombre{
+  display: block;
+  font-size:175%;
+}
+libros{
+  display:block;
+  border-style:solid;
+  width:700px;
+  padding:1%;
+}
+libro{
+  display:block;
+  height:25px;
+}
+titulo,autor,fechaPublicacion{
+  display:inline-block;
+  border-style:solid;
+  margin-right: 20px;
+  width: 200px;
+}

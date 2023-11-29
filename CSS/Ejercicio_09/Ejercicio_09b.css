@@ -1,0 +1,24 @@
+biblioteca:before{
+  content:"Libros ";
+}
+biblioteca{
+  display:block;
+  font-weight:bold;
+  font-size:150%;
+  font-family:arial;
+}
+libro{
+  display:list-item;
+  margin-left:50px;
+  list-style:lower-latin;
+  font-family:arial;
+}
+fechaPublicacion{
+  display:none;
+}
+autor:before{
+  content:"(";
+}
+autor:after{
+  content:")";
+}

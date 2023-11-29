@@ -1,0 +1,21 @@
+rascacielos{
+  display:block;
+  background-color:RGB(46, 204, 113);
+  margin:1%;
+  margin-right:40%;
+  padding:1%;
+}
+resumen{
+  display:block;
+  font-size:150%;
+  font-weight: bold;
+  width:250px;
+}
+edificio{
+  display:block;
+  margin-left:20px;
+}
+nombre{
+  font-weight: bold;
+}
+

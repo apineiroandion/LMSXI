@@ -1,0 +1,25 @@
+ pintores{
+  display:block;
+  border-style:dashed;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  margin-right:77%;
+}
+pintores titulo:before{
+  content:"Listado ";
+}
+titulo{
+  font-size:150%
+}
+pintor{
+  display:list-item;
+  margin-left:20px;
+  list-style-type: number;
+}
+nacionalidad{
+  display:none;
+}
+pintor#Vermeer{
+  display:none;
+}

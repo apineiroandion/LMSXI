@@ -1,0 +1,28 @@
+ *{
+}
+nombre{
+  display: none;
+}
+libro{
+  display:inline-block;
+  padding:1%;
+  border-style:dashed;
+  margin-left:1%;
+}
+titulo{
+  display:block;
+  margin-bottom:5px;
+  background-color:green;
+}
+
+fechaPublicacion{
+  display:block;
+  margin-bottom:5px;
+  background-color:green;
+}
+autor{
+  display:block;
+  margin-bottom:5px;
+  background-color:green;
+}
+
