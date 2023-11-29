@@ -1,0 +1,16 @@
+nombreCentro{
+  display:none;
+}
+web{
+  display:none;
+}
+ciclo{
+  display:list-item;
+  margin-left:15%;
+  list-style:number;
+}
+grado,decretoTitulo{
+  display:list-item;
+  list-style:square;
+  margin-left:10%;
+}

@@ -1,0 +1,32 @@
+nombreCentro{
+  display:inline;
+  font-size:130%;
+}
+web{
+  display:inline;
+  margin-left:30%;
+  font-size:130%;
+}
+ciclos{
+
+}
+ciclo{
+  display:table;
+  width:30%;
+  background-color:white;
+  text-align: center;
+  border-style:solid;
+  margin-left:10%;
+  margin-top:2%;
+  padding:5px;
+  border-spacing:3px;
+}
+nombre{
+  display:table-caption;
+  background-color:lightblue;
+}
+grado,decretoTitulo{
+  display:table-cell;
+  background-color:white;
+  border-style:solid;
+}
