@@ -1,0 +1,28 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="Exercicio1.xml">
+    <xsd:element name="persoa">
+        <xsd:complexType>
+            <xsd:element name="dni" type="xsd:string{9}"/> (cambiar esto)
+            <xsd:element name="nome" type="xsd:string"/>
+            <xsd:element name="estadoCivil" type="xsd:string">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="Soltero | Casado | Viudo"/>
+                </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="empresa">
+                <xsd:complexType>
+                    <xsd:element name="nome" type="xsd:string"/>
+                    <xsd:element name="url" type="xsd:string"/>
+                    <xsd:element name="telefono">
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:> (acabar esto)
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:elememnt>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
