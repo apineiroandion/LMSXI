@@ -1,0 +1,23 @@
+centro{
+  display:block;
+  font-family:Arial;
+}
+nomeCentro:before{
+  content:"Ciclos ";
+}
+nomeCentro{
+  display:block;
+  font-size:125%;
+  font-weight:bold;
+  text-decoration:underline;
+  margin-bottom:10px;
+}
+ciclo{
+  display:list-item;
+  margin-left:25px;
+  list-style:number;
+  margin-bottom:10px;
+}
+grao,decretoTitulo{
+  display:none;
+}

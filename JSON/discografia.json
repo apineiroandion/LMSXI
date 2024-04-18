@@ -1,0 +1,20 @@
+{
+    "grupo":{
+        "nome":"grupoUn",
+        "discografia":[
+            {"nome":"albumUn",
+            "portada": "http://bjasoidbhasuio.com",
+            "anoPublicacion":1998
+            },
+            {"nome":"discoDous",
+            "portada": "http://bjasoiasasadbhasuio.com",
+            "anoPublicacion":1999
+            },
+            {"nome":"TercerDisco",
+            "portada": "http://as11bjasoidbhasuio.com",
+            "anoPublicacion":2005
+            }
+        ],
+        "musicos": ["Cantante", "Guitarrista", "Bajista", "Bateria", "PIanista", "El que toca el laud"]
+    }
+}

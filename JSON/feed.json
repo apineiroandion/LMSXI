@@ -1,0 +1,26 @@
+{
+    "channel":{
+        "title": "Feed de la Pagina",
+        "link": "file:///home/dam/Escritorio/ProyectoWeb/Index.html",
+        "descripcion": "Este es el feed para anunciar los eventos de la web",
+        "lenguaje": "es",
+        "lastBuildDate": "Mon, 18 Mar 2024 13.40.00 GMT",
+        "item": [
+            {
+                "title": "Mewtwo vs Mew",
+                "link": "file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p1",
+                "descripcion": "Añadida pelicula 1",
+                "pubDate": "Thu, 7 Mar 2024 13:40:00 GMT",
+                "guid": "file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p1"
+            },
+            {
+                "title": "Pokemon 4 Ever",
+                "link": "file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p4",
+                "descripcion": "Pelicula 4",
+                "pubDate": "Thu, 7 Mar 2024 13:40:00 GMT",
+                "guid": "file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p4"
+            }
+        ]
+
+    }
+}

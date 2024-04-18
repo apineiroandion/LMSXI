@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario cliente="Daniel Castelao">
+    <espazos>
+        <espazo id="A116">
+            <ocupante>1º DAM (mañá)</ocupante>
+            <ocupante>1º ASIR (tarde)</ocupante>
+        </espazo>
+        <espazo id="A112">
+            <ocupante>2º DAM (mañá)</ocupante>
+            <ocupante>2º ASIR (tarde)</ocupante>
+        </espazo>
+    </espazos>
+    <modelos>
+        <modelo id="E001">
+            <dispositivo id="PC" />
+            <marca>Inves</marca>
+            <modelo>Sierra DT6300A</modelo>
+        </modelo>
+        <modelo id="E002">
+            <dispositivo id="Monitor" />
+            <marca>Inves</marca>
+            <modelo>HW191DP</modelo>
+        </modelo>
+        <modelo id="E003">
+            <dispositivo id="Proxector" />
+            <marca>Epson</marca>
+            <modelo>EMP-62</modelo>
+        </modelo>
+    </modelos>
+</inventario>

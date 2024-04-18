@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <centro>
+    <nome>CPR DANIEL CASTELAO</nome>
+    <web>http://www.danielcastelao.org</web>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nome>Administración de Sistemas Informáticos en Rede</nome>
+            <grao>Superior</grao>
+            <decretoTitulo ano="2009" />
+            </ciclo>
+        <ciclo id="DAM">
+            <nome>Desenvolvemento de Aplicacions Multiplataforma</nome>
+            <grao>Superior</grao>
+            <decretoTitulo ano="2010" />
+        </ciclo>
+        <ciclo id="SMR">
+            <nome>Sistemas Microinformáticos e Redes</nome>
+            <grao>Medio</grao>
+            <decretoTitulo ano="2008" />
+        </ciclo>
+    </ciclos>
+ </centro>

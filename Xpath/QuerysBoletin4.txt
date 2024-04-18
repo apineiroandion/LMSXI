@@ -1,0 +1,59 @@
+Responder co location path que serviría para obter en cada cuestión o que se pide nela.
+1. Nome da universidade.
+/universidade/nome
+2. País da universidade.
+/universidade/pais
+3. Nomes das carreiras
+//carreira/nome
+4. Anos do plan de estudo das carreiras
+//carreira/plan
+5. Nomes e apelidos de todos os alumnos
+//alumno/nome|//alumno/apelido1|//alumno/apelido2
+6. Identificadores de todas as carreiras
+//carreira/@id
+7. Datos de la carreira cuxo id é c01
+//carreira[@id="c01"]
+8. Centro no que se estudia a carreira cuxo id é c02
+//carreira[@id="c02"]/centro
+9. Nome das carreiras que teñan subdirector
+//carreiras/carreira/subdirector/../nome
+10. Nome dos alumnos que estén facendo proxecto
+//alumno/estudos/proxecto/../../nome
+11. Códigos de las carreiras en las que hay algún alumno matriculado
+//alumno/estudos/carreira/@codigo
+12. Apelidos e nome dos alumnos con beca
+//alumno/@beca/../nome|//alumno/@beca/../apelido1|//alumno/@beca/../apelido2
+13. Nome das asignaturas da titulación c04
+//asignatura[@titulacion="c04"]/nome
+14. Nome das asignaturas do segundo trimestre
+//asignatura[trimestre=2]/nome
+15. Nome das asignaturas que non teñen 4 créditos teóricos
+//asignatura[creditos_teoricos!=4]/nome
+16. Código da carreira que estudia o último alumno
+//alumno[last()]/estudos/carreira/@codigo
+17. Código das asignaturas que estudian mulleres
+//alumno[sexo="Muller"]/estudos/asignaturas/asignatura/@codigo
+18. Nome dos alumnos matriculados na asignatura a02
+//alumno[estudos/asignaturas/asignatura/@codigo="a02"]/nome
+19. Códigos das carreiras que estudian os alumnos matriculados nalguna asignatura.
+//alumno/estudos/asignaturas/asignatura/../../carreira/@codigo
+20. Apelidos de todos os homes
+//alumno[sexo="Home"]/apelido1|//alumno[sexo="Home"]/apelido2
+21. Nome da carreira que estudia Víctor Manuel
+//carreira[@id=//alumno[nome="Víctor Manuel"]/estudos/carreira/@codigo]/nome
+22. Nome das asignaturas que estudia Luisa
+//asignatura[@id=//alumno[nome="Luisa"]/estudos/asignaturas/asignatura/@codigo]/nome
+23. Primeiro apelido dos alumnos matriculados en Enxeñería do Software
+//alumno/estudos/asignaturas/asignatura[@codigo=//asignatura[nome="Inxeñería do Software"]/@id]/../../../apelido1
+24. Nome das carreiras que estudian os alumnos matriculados na asignatura
+Tecnoloxía dos Alimentos
+//carreira[@id=//asignatura[nome="Tecnoloxía dlos Alimentos"]/@titulacion]/nome
+25. Nome dos alumnos matriculados en carreiras que non teñen subdirector
+//alumno/estudos/carreira[@codigo!=//carreira/subdirector/../@id]/../../nome
+26. Nome dos alumnos matriculados en asignaturas con 0 créditos prácticos e que
+estudien a carreira de I.T. Informática
+//alumno/estudos/carreira[@codigo=//carreira[nome="I.T. Informática"]/@id]/../asignaturas/asignatura[@codigo=//asignatura[creditos_practicos=0]/@id]/../../../nome
+27. Nome dos alumnos que estudian carreiras cuxos plans son anteriores a 2002
+//alumno/estudos/carreira[@codigo=//carreira[plan<2002]/@id]/../../nome
+28. Nome carreira que cursou o alumno cuxo código es e04.
+//carreira[@id=//alumno[@id="e04"]/estudos/carreira/@codigo]/nome

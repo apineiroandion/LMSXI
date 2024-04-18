@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centro>
+    <modulos>
+        <modulo id="0228">
+            <nome>Aplicaciones web</nome>
+            <curso>2</curso>
+            <horasSemanais>4</horasSemanais>
+            <ciclo>SMR</ciclo>
+        </modulo>
+        <modulo id="0372">
+            <nome>Gestión de bases de datos</nome>
+            <curso>1</curso>
+            <horasSemanais>5</horasSemanais>
+            <ciclo>ASIR</ciclo>
+        </modulo>
+            <modulo id="0373">
+            <nome>Lenguajes de marcas y sistemas de gestión de información</nome>
+            <curso>1</curso>
+            <horasSemanais>3</horasSemanais>
+            <ciclo>ASIR</ciclo>
+            <ciclo>DAW</ciclo>
+        </modulo>
+            <modulo id="0376">
+            <nome>Implantación de aplicaciones web</nome>
+            <curso>2</curso>
+            <horasSemanais>5</horasSemanais>
+            <ciclo>ASIR</ciclo>
+        </modulo>
+    </modulos>
+</centro>

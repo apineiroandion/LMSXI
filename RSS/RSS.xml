@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version = "2.0">
+    <channel>
+        <title>Feed de la Pagina</title>
+        <link>file:///home/dam/Escritorio/ProyectoWeb/Index.html</link>
+        <description>Este es el feed para anunciar los eventos de la web</description>
+        <language>es</language>
+        <lastBuildDate>Mon, 18 Mar 2024 13:40:00 GMT</lastBuildDate>
+        <item>
+            <title>Mewtwo vs Mew</title>
+            <link>file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p1</link>
+            <description>Añadida pelicula 1</description>
+            <pubDate>Thu, 7 Mar 2024 13:40:00 GMT</pubDate>
+            <guid>file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p1</guid>
+        </item>
+        <item>
+            <title>Pokemon 4 Ever</title>
+            <link>file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p4</link>
+            <description>Pelicula 4</description>
+            <pubDate>Thu, 7 Mar 2024 13:40:00 GMT</pubDate>
+            <guid>file:///home/dam/Escritorio/ProyectoWeb/Peliculas.html#p4</guid>
+        </item>
+    </channel>
+</rss>

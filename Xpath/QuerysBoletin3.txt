@@ -1,0 +1,76 @@
+1 
+cliente="Daniel Castelao"
+/inventario/@cliente
+2 
+id="PC"
+id="Monitor"
+id="Proxector"
+//dispositivo/@id
+3 
+<modelo>Sierra DT6300A</modelo>
+<modelo>HW191DP</modelo>
+<modelo>EMP-62</modelo>
+//modelo/modelo
+4 
+1º DAM (mañá)
+1º ASIR (tarde)
+2º DAM (mañá)
+2º ASIR (tarde)
+//ocupante
+5 
+2º DAM (mañá)
+2º ASIR (tarde)
+//espazo[@id="A112"]/ocupante
+6 
+id="PC"
+id="Proxector"
+//modelo[@id!="E002"]/dispositivo/@id
+7
+ 1º DAM (mañá)
+1º ASIR (tarde)
+//espazo[@id="A116"]/ocupante
+Indica los nodos seleccionados por:
+
+8 //marca
+[Line 16] marca: Inves
+[Line 21] marca: Inves
+[Line 26] marca: Epson
+
+9 //modelo[@id="E001"]/modelo/text()
+[Line 17] null: Sierra DT6300A
+10 //espazo[@id="A112"]/ocupante[last()]
+
+11 /inventario/espazos/ocupante
+nada
+
+12 /inventario/espazos//ocupante/text()
+
+[Line 5] null: 1º DAM (mañá)
+[Line 6] null: 1º ASIR (tarde)
+[Line 9] null: 2º DAM (mañá)
+[Line 10] null: 2º ASIR (tarde)
+13 //modelos/modelo/text()
+
+[Line 14] null: 
+            
+[Line 15] null: 
+            
+[Line 16] null: 
+            
+[Line 17] null: 
+        
+[Line 19] null: 
+            
+[Line 20] null: 
+            
+[Line 21] null: 
+            
+[Line 22] null: 
+        
+[Line 24] null: 
+            
+[Line 25] null: 
+            
+[Line 26] null: 
+            
+[Line 27] null: 

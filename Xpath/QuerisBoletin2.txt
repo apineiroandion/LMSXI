@@ -1,0 +1,14 @@
+1. Nome dos módulos que se imparten no colexio.
+/centro/modulos/modulo/nome
+2. Nome dos módulos do ciclo ASIR .
+/centro/modulos/modulo[ciclo="ASIR"]/nome
+3. Nome dos módulos que se imparten no primer curso de calquera ciclo:
+/centro/modulos/modulo[curso="1"]/nome
+4. Nome dos módulos de menos de 5 horas semanais:
+/centro/modulos/modulo[horasSemanais<5]/nome
+5. Nome dos módulos que se imparten no segundo curso de DAM.
+/centro/modulos/modulo[curso = "2" and ciclo = "DAM"]/nome
+6. Nome e horas semanais dos módulos de máis de 3 horas semanais.
+//modulo[horasSemanais>3]/nome|//modulo[horasSemanais>3]/horasSemanais
+7. Código id, nome módulo e ciclo .
+//modulo/@id|//modulo/nome|//modulo/ciclo
