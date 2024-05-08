@@ -1,0 +1,43 @@
+ 1- Títulos ordeados.
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro return $x/titulo/text()
+2- Títulos ordeados polo nome do primer autor.
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro
+order by $x/autores/autor[1]/nome
+return $x/titulo
+3- Nome e apelido do primer autor de cada libro.
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro
+return $x/autores/autor[1]/nome||' '||$x/autores/autor[1]/apelido
+4- Título e número de autores de cada libro.
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro
+return ($x/titulo, count($x/autores/autor))
+5- Libros que teñen varios autores e libros que teñen un autor
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro
+return
+if (count($x/autores/autor) > 1) then
+<variosAutores>{data($x/titulo)}</variosAutores>
+else
+<unAutor>{data($x/titulo)}</unAutor>
+6- Libros cuxo autor es “Edith”.
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro where $x/autores/autor/nome="Edith"
+return
+$x/titulo
+7- Dado o siguiente XML:
+<almacen>
+    <mercados>
+        <codigo>1</codigo>
+    </mercados>
+    <vendidos>
+        <codigo>2</codigo>
+    </vendidos>
+</almacen>
+ Indica os libros que foron vendidos
+
+8- Mostra título e prezo nunha lista HTML.
+<ul>
+{
+for $x in doc("/home/dam/basex/data/Boletin3Xquery/Boletin3Xquery.xml")/libros/libro
+return
+<li>{$x/titulo||' '||$x/prezo}</li>
+}
+</ul>
+9- Mostra título, isbn e prezo nunha táboa HTML

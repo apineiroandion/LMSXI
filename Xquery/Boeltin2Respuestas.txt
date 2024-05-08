@@ -1,0 +1,25 @@
+1- Selecciona o título de todos os libros.
+for $x in doc("/home/dam/basex/data/Boletin2Xquery/Boletin2Xquery.xml")/libros/libro return data($x/titulo)
+2- Selecciona aqueles libros cuxo prezo sexa menor a 20 euros.
+for $x in /libros/libro
+let $prezo := replace($x/prezo, ',', '.')
+where xs:decimal($prezo) < 20
+return $x/titulo/text()
+3- Obter o título de cada libro cuxo prezo sexa mayor que 20 euros e ordéalos
+alfabéticamente.
+for $x in /libros/libro
+let $prezo := replace($x/prezo, ',', '.')
+where xs:decimal($prezo) > 20
+order by $x/titulo
+return $x/titulo/text()
+4- Mostra o título de cada libro e o autor, ordeado alfabéticamente por título.
+for $x in /libros/libro
+order by $x/titulo
+return $x/titulo/text()||' '||$x/autor
+5- Diferencia entre os libros que consideres entretidos e os que no o son.
+for $x in /libros/libro
+return if ($x/@tema="Historia") then
+"Entretidos: "||$x/titulo/text()
+else
+"Non Entretidos: "||$x/titulo/text()
+

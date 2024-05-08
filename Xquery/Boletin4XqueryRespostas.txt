@@ -1,0 +1,84 @@
+1- Necesítase saber os nomes dos bailes que se realizan na sala número 1.
+for $x in doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")/Bailes/baile
+return $x/nome
+2- Mostra o listado de todos os bailes eliminando os repetidos.
+for $x in distinct-values(doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")/Bailes/baile/nome)
+return $x
+3- Realiza unha consulta para obter o nome dos profesores que dan clases con cuotas mensuais..
+for $x in doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")/Bailes/baile
+where $x/prezo/@cuota="mensual"
+return $x/profesor
+4- Necítase extraer os nodos de aqueles bailes que se imparten na sala 1 e cuxo prezo
+sexa menor que 35 euros.
+for $x in doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")/Bailes/baile
+where $x/sala=1 and $x/prezo < 35
+return $x
+5- Realiza unha consulta cuxo resultado sexa unha táboa HTML que nos mostre o nome do baile, o
+profesor que o imparte e o número de prazas ofertadas
+(:Realiza unha consulta cuxo resultado sexa unha táboa HTML que nos mostre o nome do baile, o
+profesor que o imparte e o número de prazas ofertadas:)
+<table>
+ <tr>
+   <th>Baile</th><th>Profesor</th><th>Prazas</th>
+ </tr>
+{
+for $x in doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")/Bailes/baile
+return
+<tr>
+  <td>{$x/nome}</td><td>{$x/profesor}</td><td>{$x/prazas}</td>
+</tr>
+}
+</table>
+6-Queremos realizar a mesma consulta anterior pero establecendo a condición de ser
+bailes con cuota mensual. Ademais ordenaranse, de menor a maior, os bailes según o
+número de prazas dispoñibles
+
+7- Quérese engadir un novo baile na base de datos, ao final. Os datos son:
+nome: foxtrot
+id=7
+prezo: 22 euros
+Pago: mensual
+prazas: 12
+comenzo: 01/01/2025
+Fin:31/07/2025
+Profesor: Freddy Astaire
+Sala 3
+
+(:7- Quérese engadir un novo baile na base de datos, ao final. Os datos son:
+nome: foxtrot
+id=7
+prezo: 22 euros
+Pago: mensual
+prazas: 12
+comenzo: 01/01/2025
+Fin:31/07/2025
+Profesor: Freddy Astaire
+Sala 3:)
+
+insert nodes<baile id="7"> <prezo cuota="mensual" moneda="euro">22</prezo> <prazas>12</prazas> <comenzo>01/01/2025</comenzo> <fin>31/07/2025</fin> <profesor>Freddy Astaire</profesor> <sala>3</sala> </baile>
+into doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")/Bailes/baile[last()]
+
+(:insert node<baile id ="7"> <nombre>Foxtrot</nombre> <prezo cuota="mensual"
+moeda="euro">22</prezo> <prazas>12</prazas> <comenzo>01/01/2025</comenzo>
+<fin>31/07/2025</fin> <profesor>Freddy Astaire</profesor> <sala>3</sala> </baile> before
+doc("/home/dam/basex/data/Boletin4Xquery/Boletin4Xquery.xml")//Bailes/baile[1]
+:)
+
+8- No último nodo cambia o nome do profesor por” Angel Correlada” e o número de prazas
+ofertadas.”14”.
+
+9- Borrar 0 baile impartido por “. Miriam Gutiérrez”.
+
+10- Obtén a siguinte lista:
+Lista:
+• Profesor: Angel Correlada – Nome baile: Foxtrot
+• Profesor: Laura Mendiola – Nome baile: Rock
+• Profesor: María Guardiola – Nome baile: Rock
+• Profesor: Miriam Gutiérrez – Nome baile: Cha-cha-cha
+• Profesor: Roberto García – Nome baile: Tango
+
+11- Realiza un segundo XML cos nomes de bailes de salón e pasos básicos. Escribir unha consulta que
+mostre os pasos dos bailes do documento principal, se está a información no segundo XML
+
+
+

@@ -1,0 +1,22 @@
+1- Mostra o nome dos alumnos, sen etiquetas.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return data($x/nome)
+2- Mostra a nota do último alumno.
+let $alumnos:= doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno
+let $ultimoAlumno:=  $alumnos[last()]
+return data ($ultimoAlumno/nota)
+3- Indicar nome e nota de cada alumno.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return data($x/nome ||" "|| $x/nota)
+4- Mostra o nome dos alumnos aprobados.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return if($x/nota > 5) then data($x/nome) else ()
+5- Mostra o DNI e a nota dos alumnos que aprobasen.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return if($x/nota > 5) then data($x/@dni ||" "||$x/nota) else ()
+6- Indica o nome dos alumnos cuxas notas estén entre 6 e 8 (ambas inclusive).
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return if($x/nota >= 5 and $x/nota <= 8) then data($x/nome) else ()
+7- Mostra o listado de nomes ordeados por apelidos.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno order by $x/apelido return data($x/nome)
+8- Mostra os nomes ordeados por DNI.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno order by $x/@dni return data($x/nome)
+9- Mostrar o número de cada alumno (a orde) e o seu nome.
+for $x at $i in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return $i||" "||data($x/nome)
+10-Se a nota é maior ou igual que 5 mostrar DNI, en caso contrario o nome.
+for $x in doc("/home/dam/basex/data/Boletin1Xquery/Boletin1Xquery.xml")/alumnos/alumno return if ($x/nota >= 5) then data($x/@dni) else (data($x/nome))

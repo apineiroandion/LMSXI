@@ -1,0 +1,27 @@
+<libros>
+    <libro tema="Historia">
+        <titulo ISBN="849060326X">Las campañas de Napoleón</titulo>
+        <autor>David Chandler</autor>
+        <data>2015</data>
+        <prezo>29.90</prezo>
+    </libro>
+    <libro tema="Divulgación">
+        <titulo ISBN="8476697635">En casa</titulo>
+        <autor>Bill Bryson</autor>
+        <data>2018</data>
+        <prezo>12</prezo>
+    </libro>
+    <libro tema="Biografía">
+        <titulo ISBN="9788495825087">Mis circunstancias</titulo>
+        <autor>Lewis Trodheim</autor>
+        <data>2002</data>
+        <prezo>21</prezo>
+    </libro>
+    <libro tema="Filosofía">
+        <titulo ISBN="8496445550">Calvin and Hobbes: En todas partes hay
+        tesoros</titulo>
+        <autor>Bill Watterson</autor>
+        <data>2018</data>
+        <prezo>21,80</prezo>
+    </libro>
+ </libros>

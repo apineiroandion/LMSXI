@@ -1,0 +1,41 @@
+<libros>
+    <libro codigo="1">
+        <isbn>978-84-126247-2-4</isbn>
+        <titulo>Expiación e outros relatos</titulo>
+        <autores>
+            <autor>
+                <nome>Edith</nome>
+                <apelido>Wharton</apelido>
+            </autor>
+        </autores>
+        <editor>
+            <nome>Irmás Cartoné</nome>
+        </editor>
+        <prezo>14,50</prezo>
+        <ano>2014</ano>
+    </libro>
+    <libro codigo="2">
+        <isbn>978-84-1176-059-1</isbn>
+        <titulo>Millennials. Unha xeración entre dúas
+        crises</titulo>
+        <autores>
+            <autor>
+                <nome>Raquel</nome>
+                <apelido>C. Pico</apelido>
+                <email>raquel@raquelcpico.com</email>
+            </autor>
+            <autor>
+                <nome>Ana</nome>
+                <apelido>Bulnes</apelido>
+            </autor>
+        </autores>
+        <editor>
+            <nome>Galaxia</nome>
+        </editor>
+        <prezo>20.20</prezo>
+        <ano>2023</ano>
+        <revisions>
+        <nome>Cristina Domínguez</nome>
+        </revisions>
+    </libro>
+</libros>

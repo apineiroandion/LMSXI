@@ -1,0 +1,27 @@
+<alumnos>
+    <alumno dni="41293940">
+        <nome>Nick</nome>
+        <apelido>Cave</apelido>
+        <nota>7</nota>
+    </alumno>
+    <alumno dni="23456782">
+        <nome>Blixa</nome>
+        <apelido>Bargeld</apelido>
+        <nota>8</nota>
+    </alumno>
+    <alumno dni="12367845">
+        <nome>Mick</nome>
+        <apelido>Harvey</apelido>
+        <nota>4</nota>
+    </alumno>
+    <alumno dni="34567821">
+        <nome>Thomas</nome>
+        <apelido>Wydler</apelido>
+        <nota>3</nota>
+    </alumno>
+    <alumno dni="12345678">
+        <nome>Kidn Congo</nome>
+        <apelido>Powers</apelido>
+        <nota>9</nota>
+    </alumno>
+</alumnos>
